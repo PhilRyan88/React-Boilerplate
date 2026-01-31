@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import FormDemo from "./components/FormDemo"
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
         Hello world!
       </h1>
       <Button>Shadcn Button</Button>
+      <FormDemo />
     </div>
   )
 }
